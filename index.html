@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Orator: LLM-Guided Multi-Shot Speech Video Generation</title>
 
-<!--   <!-- Global site tag (gtag.js) - Google Analytics -->
+<!--   Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -20,7 +20,7 @@
     gtag('js', new Date());
 
     gtag('config', 'G-PYVRSFMDRL');
-  </script> -->
+  </script> 
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -116,7 +116,7 @@
   </div>
 </section>
 
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
@@ -128,13 +128,13 @@
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
+    <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
@@ -148,23 +148,114 @@
             Put your abstract here.
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Abstract. -->
 
     <!-- Paper video. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Dataset</h2>
-        <video id="teaser" autoplay muted loop playsinline height="100%">
+        <h2 class="title is-2">TalkCut Dataset</h2>
+        <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/a.mp4"
+                  type="video/mp4">
+        </video>
+        <p>Put your video here.</p> -->
+      </div>
+    </div>
+    
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h1 class="title is-3">Dataset Overview</h1>
+        <p> </p>
+        <video id="teaser" autoplay muted loop playsinline height="200%">
           <source src="./static/videos/a.mp4"
                   type="video/mp4">
         </video>
         <p>Put your video here.</p>
       </div>
     </div>
+
+
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h1 class="title is-3">Dataset Annotations</h1>
+      </div>
+    </div>
+    <!-- <div class="hero-body"> -->
+      <div class="container">
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-ann1">
+            <video poster="" id="ann1" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/a.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-ann2">
+            <video poster="" id="ann2" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/a.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-ann3">
+            <video poster="" id="ann3" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/a.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-ann4">
+            <video poster="" id="ann4" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/a.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-ann5">
+            <video poster="" id="ann5" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/a.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-ann6">
+            <video poster="" id="ann6" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/a.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-ann7">
+            <video poster="" id="ann7" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/a.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-ann8">
+            <video poster="" id="ann8" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/a.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-ann9">
+            <video poster="" id="ann9" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/a.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-ann10">
+            <video poster="" id="ann10" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/a.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+          <!-- <p> description here </p> -->
+        </div>
+      
+      </div>
+    <!-- </div> -->
+  </div>
+</section>
     <!--/ Paper video. -->
     <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+    <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Dataset</h2>
         <video id="teaser" autoplay muted loop playsinline height="100%">
@@ -173,10 +264,10 @@
         </video>
         <p>Put your video here.</p>
       </div>
-    </div>
+    </div> -->
     <!--/ Paper video. -->
     <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+    <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Generated Long Videos</h2>
         <video id="teaser" autoplay muted loop playsinline height="100%">
@@ -185,10 +276,48 @@
         </video>
         <p>Put your video here.</p>
       </div>
+    </div> -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h1 class="title is-2">Generated Long Videos</h1>
+      </div>
     </div>
+
+    <!-- <div class="hero-body">
+      <div class="container"> -->
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-vid1">
+            <video poster="" id="vid1" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/a.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-vid2">
+            <video poster="" id="vid2" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/a.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-vid3">
+            <video poster="" id="vid3" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/a.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-vid4">
+            <video poster="" id="vid4" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/a.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--/ Paper video. -->
     <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+    <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video Generation Results</h2>
         <video id="teaser1" autoplay muted loop playsinline width="100%">
@@ -212,10 +341,48 @@
         </video>
         <p> </p>
       </div>
+    </div> -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h1 class="title is-2">Video Generation Results</h1>
+      </div>
     </div>
+
+    <!-- <div class="hero-body"> -->
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-teaser1">
+          <video poster="" id="teaser1" autoplay controls muted loop playsinline >
+            <source src="./static/videos/compare1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-teaser2">
+          <video poster="" id="teaser2" autoplay controls muted loop playsinline >
+            <source src="./static/videos/compare2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-teaser3">
+          <video poster="" id="teaser3" autoplay controls muted loop playsinline >
+            <source src="./static/videos/compare3.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-teaser4">
+          <video poster="" id="teaser4" autoplay controls muted loop playsinline >
+            <source src="./static/videos/compare4.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+    
     <!--/ Paper video. -->
     <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+    <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">SMPLX Prediction Results</h2>
         <video id="teaser" autoplay muted loop playsinline width="40%">
@@ -228,7 +395,7 @@
         </video>
         <p>Put your video here.</p>
       </div>
-    </div>
+    </div> -->
     <!--/ Paper video. -->
   </div>
 </section>
